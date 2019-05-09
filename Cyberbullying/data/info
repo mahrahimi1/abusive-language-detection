@@ -1,0 +1,20 @@
+1. Dataset information
+
+This dataset accompanies the paper entitled "Mean Birds: Detecting Aggression and Bullying on Twitter", which is published in the ACM WebScience Conference, 2017. It contains anonymized information on the "annotated batches" of a selected set of Twitter users.
+
+2. Description of file
+
+The "data" file contains the list of all the annotated batches that were used in the paper.
+
+Each row corresponds to a given batch, and is tab-delimited into the following 3 fields:
+- user id: a random id for each user.
+- annotation: whether the user has been characterized as normal, spammer, aggressor, or bully by a majority of crowd workers.
+- tweets ids: a set of tweets ranging from 5 to 10.
+
+Overall, the dataset includes 1,303 users with 9,484 tweets.
+
+3. Citation
+
+If you use the file in your research, please cite the following work:
+
+Despoina Chatzakou, Nicolas Kourtellis, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, Athena Vakali, "Mean Birds: Detecting Aggression and Bullying on Twitter", WebScience, 2017.
